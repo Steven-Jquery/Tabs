@@ -1,0 +1,36 @@
+/* Animation */
+/*===Arrow Type 1===*/
+/*===Arrow Type 2===*/
+/*===List column items===*/
+.wrap-tab {
+  margin: 20px auto;
+  padding: 20px; }
+  .wrap-tab .list-tab {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: flex; }
+    .wrap-tab .list-tab .item-tab {
+      background-color: orange; }
+      .wrap-tab .list-tab .item-tab a {
+        padding: 10px 30px;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        border-right: 1px solid rgba(255, 255, 255, 0.4);
+        display: block; }
+        .wrap-tab .list-tab .item-tab a:hover {
+          background-color: #db8e00;
+          -webkit-transition: all ease 0.3s;
+          -moz-transition: all ease 0.3s;
+          -o-transition: all ease 0.3s;
+          transition: all ease 0.3s; }
+      .wrap-tab .list-tab .item-tab.active {
+        background-color: #db8e00; }
+  .wrap-tab .content-tab {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 15px 30px; }
+
+/*# sourceMappingURL=tab.css.map */
